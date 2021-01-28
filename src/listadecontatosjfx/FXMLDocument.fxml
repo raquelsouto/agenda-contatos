@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="listadecontatosjfx.FXMLDocumentController">
+   <children>
+      <AnchorPane blendMode="MULTIPLY" layoutX="132.0" layoutY="78.0" prefHeight="445.0" prefWidth="624.0" style="-fx-background-color: #70da83;">
+         <children>
+            <Label fx:id="lblAdicionar" layoutX="160.0" layoutY="26.0" text="ADICIONAR CONTATO" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="Tahoma Bold" size="24.0" />
+               </font></Label>
+            <TextField layoutX="51.0" layoutY="208.0" prefHeight="25.0" prefWidth="475.0" promptText="exemplo@gmail.com" />
+            <Button fx:id="btSalvar" layoutX="253.0" layoutY="382.0" mnemonicParsing="false" onAction="#clicouSalvar" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #FF424E;" text="Salvar">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <TextField layoutX="51.0" layoutY="262.0" prefHeight="25.0" prefWidth="475.0" promptText="\@usuario" />
+            <TextField layoutX="51.0" layoutY="100.0" prefHeight="25.0" prefWidth="475.0" promptText="Fulano da Silva" />
+            <TextField layoutX="51.0" layoutY="154.0" prefHeight="25.0" prefWidth="475.0" promptText="+55 (XX) XXXXX-XXXX" />
+            <TextField layoutX="48.0" layoutY="319.0" prefHeight="25.0" prefWidth="475.0" promptText="\@usuario" />
+            <Label layoutX="51.0" layoutY="83.0" text="Nome Completo">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="137.0" text="Telefone">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="190.0" text="Email">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="245.0" text="Instagram">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="300.0" text="Twitter">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </AnchorPane>
+      <Button fx:id="btListar" layoutX="73.0" layoutY="20.0" mnemonicParsing="false" text="Listar Contatos" textAlignment="JUSTIFY">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="Tahoma" size="12.0" />
+         </font></Button>
+      <Button disable="true" layoutX="175.0" layoutY="20.0" mnemonicParsing="false" text="Pesquisar Contatos">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="Tahoma" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

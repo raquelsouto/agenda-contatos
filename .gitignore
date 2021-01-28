@@ -12,6 +12,7 @@
 
 # Package Files #
 *.jar
+!/libs/json-20201115.jar
 *.war
 *.nar
 *.ear
